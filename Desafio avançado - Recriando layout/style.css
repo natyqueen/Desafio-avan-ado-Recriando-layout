@@ -1,0 +1,84 @@
+body {
+  background: #2c2b3d;
+  margin-top: 71px;
+}
+header {
+  font-family: "JetBrains Mono", monospace;
+  margin: auto;
+  width: 1083px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 64px;
+}
+li {
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+main {
+  width: 1083px;
+  display: flex;
+  margin: auto;
+}
+main img {
+  margin-top: 20%;
+}
+section {
+  padding-left: 80px;
+  margin-top: 18%;
+  width: 1083px;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-family: "JetBrains Mono", monospace;
+  color: #ffffff;
+  margin-bottom: 51px;
+  font-size: 36px;
+}
+h1 span {
+  color: #00bfa6;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  width: 604px;
+  font-size: 16px;
+  color: #7d7987;
+  line-height: 28px;
+  font-weight: 400;
+}
+p span {
+  color: #00bfa6;
+}
+p strong {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #c2c2c2;
+}
+footer {
+  margin: auto;
+  margin-top: 27px;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.line {
+  margin: auto;
+  margin-top: 340px;
+  width: 568px;
+  border: 1px solid #00bfa6;
+}
+.cadeado {
+  position: absolute;
+  left: 20px;
+}
